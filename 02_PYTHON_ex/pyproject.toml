@@ -1,0 +1,19 @@
+[project]
+name = "02-python-ex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "today700-a11y", email = "today700@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+]
+
+[project.scripts]
+02-python-ex = "02_python_ex:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
